@@ -1,0 +1,7 @@
+numero = float(input('Digite um número: ')) #codigo para entrada de informação
+resto = numero % 2      #A variável 'resto' receberá o resultado da operação. A porcentagem em python fornece o resto da divisão.
+
+if resto == 0:  #condição para o verificar o número
+  print ('Par') #Caso a condição seja positiva será exibido "Par" 
+else:
+  print('Impar') #Caso a condição não seja positiva será exibido "Ímpar" 
