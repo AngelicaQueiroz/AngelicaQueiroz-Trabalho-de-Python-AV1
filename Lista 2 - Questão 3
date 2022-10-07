@@ -1,0 +1,5 @@
+numero = float(input("Digite um numero:")) #codigo para entrada de informação
+if numero % 1==0:  #Condição para verificar se o número é inteiro
+  print("Inteiro") #Se for Inteiro será exibido "Inteiro"
+else:
+  print("Decimal") #Se não for Inteiro será exibido "Decimal"
