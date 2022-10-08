@@ -1,0 +1,28 @@
+idades = []
+alturas = []
+for i in range(1, 6):
+    print('%dº Pessoa' %i)
+    idade = int(input('Digite a idade: '))
+    altura = float(input('Digite a altura: '))
+    idades.append(idade)
+    alturas.append(altura)
+    print()
+
+print('Ordem inversa')
+print()
+print('Alturas')
+print()
+print(alturas[::-1])
+print('Idades')
+print()
+print(idades[::-1])
+
+print('Ordem lida')
+print()
+print('Alturas')
+print()
+print(alturas)
+print()
+print('Idades')
+print()
+print(idades)
